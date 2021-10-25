@@ -9,7 +9,8 @@ As we have submodules, don't forget to put the ```--recursive``` switch in the c
 This demo shows how to use .NET Code to encrypt and decrypt, using RSA Public and Private key encryption.
 
 - No third party libraries are used, just [System.Security.Cryptography](https://docs.microsoft.com/en-us/dotnet/api/system.security.cryptography?view=net-6.0)
-- We have packaged the demo into it's own [Yatter.Security.Cryptography](https://github.com/YatterOfficial/Yatter.Security.Cryptography) namespace project repo, so that it can be cloned as-is, as well as packed into a Nuget package.
+- We have packaged the demo into it's own [Yatter.Security.Cryptography](https://github.com/YatterOfficial/Yatter.Security.Cryptography) namespace project repo, so that it can be cloned as-is, packed into a Nuget package, or simply used as a tutorial.
+- Given how important that security is, it is refreshing that ```Yatter.Security.Cryptography``` only uses ```System.Security.Cryptography```. You can either use the Nuget package as is, or copy the same patterns into your own code-base.
 
 ## Encrypting and Decrypting
 
