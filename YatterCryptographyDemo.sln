@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.11
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YatterCryptographyDemo", "YatterCryptographyDemo\YatterCryptographyDemo.csproj", "{00A6CB86-9775-417A-81D5-4A2CB07CA856}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yatter.Security.Cryptography", "Submodules\Yatter.Security.Cryptography\Yatter.Security.Cryptography\Yatter.Security.Cryptography.csproj", "{2D51492A-830B-40F1-966B-7DE851B5C0A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00A6CB86-9775-417A-81D5-4A2CB07CA856}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00A6CB86-9775-417A-81D5-4A2CB07CA856}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00A6CB86-9775-417A-81D5-4A2CB07CA856}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00A6CB86-9775-417A-81D5-4A2CB07CA856}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D51492A-830B-40F1-966B-7DE851B5C0A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D51492A-830B-40F1-966B-7DE851B5C0A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D51492A-830B-40F1-966B-7DE851B5C0A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D51492A-830B-40F1-966B-7DE851B5C0A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {57DDB270-4AA8-4EED-A590-B0CA308240BA}
+	EndGlobalSection
+EndGlobal

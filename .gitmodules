@@ -1,0 +1,3 @@
+[submodule "Submodules/Yatter.Security.Cryptography"]
+	path = Submodules/Yatter.Security.Cryptography
+	url = https://github.com/YatterOfficial/Yatter.Security.Cryptography.git
