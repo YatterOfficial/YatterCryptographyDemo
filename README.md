@@ -98,7 +98,7 @@ and
 ```
 
 - If you want to save these, just convert them to a Base64 string, which you can later convert back to the original byte[] and import them again.
-- You will, of course, need to distribute your Public key so that others can use it to encrtypt data that they then send to you - and of course, when you receive data that has been encrypted with your public key, you will have to be able to retrieve your Private key so that you can decrypt what has been sent to you. Thus, exporting the keys and saving them is important!
+- You will, of course, need to distribute your Public key so that others can use it to encrypt data that they then send to you - and of course, when you receive data that has been encrypted with your public key, you will have to be able to retrieve your Private key so that you can decrypt what has been sent to you. Thus, exporting the keys and saving them is important!
 
 We also export in PEM format, however don't yet support importing PEM format. To import PEM format, you will need to convert them into their binary (byte[]) PKCS#1 RSAPrivateKey and PKCS#1 RSAPublicKey forms and import using the available methods:
 
