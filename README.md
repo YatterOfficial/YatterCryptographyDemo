@@ -326,3 +326,5 @@ if(decoded.Equals(originalText))
 
 Console.ReadLine();
 ```
+
+y@R and You-At-A-Resource are trademarks of Count Anthony Harrison, operating from the United Kingdom
